@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/UCI_MCS/250P/hw1/main.c
+stdint.h
+-
+unistd.h
+-
+stdio.h
+-
+fcntl.h
+-
+string.h
+-
+assert.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+
